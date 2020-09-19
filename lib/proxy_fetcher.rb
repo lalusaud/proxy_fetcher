@@ -41,6 +41,7 @@ module ProxyFetcher
     require File.dirname(__FILE__) + "/proxy_fetcher/providers/mtpro"
     require File.dirname(__FILE__) + "/proxy_fetcher/providers/proxy_list"
     require File.dirname(__FILE__) + "/proxy_fetcher/providers/xroxy"
+    require File.dirname(__FILE__) + "/proxy_fetcher/providers/us_proxy"
   end
 
   @__config_access_lock__ = Mutex.new
